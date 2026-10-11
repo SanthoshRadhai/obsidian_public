@@ -1,0 +1,68 @@
+/* ---------- Layout offsets for the fixed nav ---------- */
+body {
+  --sv-nav-h: 60px;
+  --dg-content-padding-top: calc(var(--sv-nav-h) + 56px);
+  --dg-content-padding-top-mobile: calc(var(--sv-nav-h) + 75px);
+  --dg-sidebar-top: calc(var(--sv-nav-h) + 40px);
+}
+
+/* push the left file tree and the mobile bar below the nav */
+.filetree-wrapper {
+  top: var(--sv-nav-h) !important;
+  height: calc(100% - var(--sv-nav-h)) !important;
+}
+.navbar { top: var(--sv-nav-h) !important; }
+
+/* ---------- Navigation bar (fixed, full width) ---------- */
+.sv-nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  height: var(--sv-nav-h);
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  padding: 0 32px;
+  background: color-mix(in srgb, var(--background-primary) 90%, transparent);
+  backdrop-filter: saturate(1.2) blur(8px);
+  -webkit-backdrop-filter: saturate(1.2) blur(8px);
+  border-bottom: 1px solid var(--background-modifier-border);
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1;
+}
+.sv-logo {
+  font-family: 'Newsreader', Georgia, serif; font-style: italic;
+  font-size: 22px; white-space: nowrap;
+  text-decoration: none !important; color: var(--text-normal) !important;
+}
+.sv-links { display: flex; gap: 28px; }
+.sv-links a {
+  font-size: 14px; white-space: nowrap; text-decoration: none !important;
+  color: var(--text-muted) !important; position: relative;
+}
+.sv-links a::after {
+  content: ""; position: absolute; left: 0; bottom: -4px; height: 1px; width: 100%;
+  background: currentColor; transform: scaleX(0); transform-origin: left;
+  transition: transform .25s ease;
+}
+.sv-links a:hover, .sv-links a.sv-active { color: var(--text-normal) !important; }
+.sv-links a:hover::after, .sv-links a.sv-active::after { transform: scaleX(1); }
+
+/* ---------- Footer (inside the note column, same width as the text) ---------- */
+.sv-footer {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 12px; flex-wrap: wrap;
+  margin-top: 72px; padding-top: 20px;
+  border-top: 1px solid var(--background-modifier-border);
+  font-family: 'Inter', system-ui, sans-serif; font-size: 14px; line-height: 1.5;
+  color: var(--text-faint);
+}
+.sv-footer p { margin: 0; }
+.sv-footer-links { display: flex; gap: 20px; flex-wrap: wrap; }
+.sv-footer a { color: var(--text-faint) !important; text-decoration: none !important; }
+.sv-footer a:hover { color: var(--text-accent) !important; }
+
+/* ---------- Phone ---------- */
+@media (max-width: 700px) {
+  body { --sv-nav-h: 52px; }
+  .sv-nav { padding: 0 16px; gap: 16px; }
+  .sv-links { gap: 16px; overflow-x: auto; scrollbar-width: none; }
+  .sv-links::-webkit-scrollbar { display: none; }
+  .sv-footer { flex-direction: column; align-items: flex-start; }
+}
