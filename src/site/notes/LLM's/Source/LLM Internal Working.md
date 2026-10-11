@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/llm-s/source/llm-internal-working/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/llm-s/source/llm-internal-working/","noteIcon":"","dg-note-properties":{}}
 ---
 
 

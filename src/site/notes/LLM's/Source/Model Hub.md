@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/llm-s/source/model-hub/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/llm-s/source/model-hub/","noteIcon":"","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/llm-s/source/inferencing-in-llm/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/llm-s/source/inferencing-in-llm/","noteIcon":"","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/llm-s/notes/large-language-models/","tags":["gardenEntry"],"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/llm-s/notes/large-language-models/","noteIcon":"","dg-note-properties":{}}
 ---
 
 ### The major fields in LLMs are 

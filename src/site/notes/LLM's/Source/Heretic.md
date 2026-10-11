@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/llm-s/source/heretic/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/llm-s/source/heretic/","noteIcon":"","dg-note-properties":{}}
 ---
 
 
