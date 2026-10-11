@@ -57,6 +57,8 @@ body {
 .sv-footer-links { display: flex; gap: 20px; flex-wrap: wrap; }
 .sv-footer a { color: var(--text-faint) !important; text-decoration: none !important; }
 .sv-footer a:hover { color: var(--text-accent) !important; }
+.sv-footer a.sv-powered { color: var(--text-muted) !important; }
+.sv-footer a.sv-powered:hover { color: var(--text-accent) !important; }
 
 /* ---------- Phone ---------- */
 @media (max-width: 700px) {
