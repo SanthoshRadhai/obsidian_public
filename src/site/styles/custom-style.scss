@@ -1,13 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap');
+
+/* ---------- Fonts (same as portfolio) ---------- */
 body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+  --font-text-theme: 'Inter', system-ui, sans-serif;
+  --font-interface-theme: 'Inter', system-ui, sans-serif;
+  --font-monospace-theme: 'JetBrains Mono', Consolas, monospace;
 }
+h1, h2, h3, h4, h5, h6,
+.filetree-sidebar h1 {
+  font-family: 'Newsreader', Georgia, serif !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.01em;
+}
+.filetree-sidebar h1 { font-style: italic; }
+
+/* ---------- Light: paper & ink ---------- */
+body.theme-light {
+  --background-primary: #f6f1e7;
+  --background-primary-alt: #efe8da;
+  --background-secondary: #efe8da;
+  --background-secondary-alt: #efe8da;
+  --background-modifier-border: #ddd4c3;
+  --text-normal: #1e2a4a;
+  --text-muted: #4b5573;
+  --text-faint: #7c7f8f;
+  --text-accent: #c2410c;
+  --text-accent-hover: #9a3412;
+  --interactive-accent: #c2410c;
+  --link-color: #c2410c;
+  --link-external-color: #c2410c;
+  --text-selection: #c2410c33;
+}
+
+/* ---------- Dark: navy & orange ---------- */
+body.theme-dark {
+  --background-primary: #141a2a;
+  --background-primary-alt: #1b2236;
+  --background-secondary: #1b2236;
+  --background-secondary-alt: #1b2236;
+  --background-modifier-border: #2c3449;
+  --text-normal: #ece6d8;
+  --text-muted: #b9b4a8;
+  --text-faint: #8a8a92;
+  --text-accent: #f08a4b;
+  --text-accent-hover: #f4a574;
+  --interactive-accent: #f08a4b;
+  --link-color: #f08a4b;
+  --link-external-color: #f08a4b;
+  --text-selection: #f08a4b33;
+}
+
+/* ---------- Small touches ---------- */
+body { line-height: 1.65; }
+.content a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
