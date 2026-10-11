@@ -1,0 +1,44 @@
+/* ---------- Navigation bar ---------- */
+.sv-nav {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap;
+  padding: 0 0 18px; margin-bottom: 32px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+.sv-logo {
+  font-family: 'Newsreader', Georgia, serif; font-style: italic;
+  font-size: 22px; text-decoration: none !important; color: var(--text-normal) !important;
+}
+.sv-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.sv-links a {
+  font-size: 14px; text-decoration: none !important;
+  color: var(--text-muted) !important; position: relative;
+}
+.sv-links a::after {
+  content: ""; position: absolute; left: 0; bottom: -3px; height: 1px; width: 100%;
+  background: currentColor; transform: scaleX(0); transform-origin: left;
+  transition: transform .25s ease;
+}
+.sv-links a:hover, .sv-links a.sv-active { color: var(--text-normal) !important; }
+.sv-links a:hover::after, .sv-links a.sv-active::after { transform: scaleX(1); }
+
+/* ---------- Footer ---------- */
+.sv-footer {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 12px; flex-wrap: wrap;
+  max-width: 900px; margin: 64px auto 0; padding: 24px 24px 40px;
+  border-top: 1px solid var(--background-modifier-border);
+  font-family: 'Inter', system-ui, sans-serif; font-size: 14px;
+  color: var(--text-faint);
+}
+.sv-footer p { margin: 0; }
+.sv-footer-links { display: flex; gap: 20px; flex-wrap: wrap; }
+.sv-footer a { color: var(--text-faint) !important; text-decoration: none !important; }
+.sv-footer a:hover { color: var(--text-accent) !important; }
+
+/* ---------- Phone ---------- */
+@media (max-width: 700px) {
+  .sv-links { gap: 14px; }
+  .sv-footer { flex-direction: column; align-items: flex-start; }
+}
