@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/llm-s/notes/large-language-models/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
-dfd
 ### The major fields in LLMs are 
 ### 1. How LLM Internally works 
 Refer [[LLM's/Source/LLM Internal Working\|LLM Internal Working]] to learn more about it 
