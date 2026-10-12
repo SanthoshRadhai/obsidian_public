@@ -20,7 +20,7 @@ Refer [[LLM's/Source/Heretic\|Heretic]] to learn more about it.
 
 ### Experiments withs LLM's 
 
-### 1. [[LLM's/Notes/Unplugged but Not Uninformed - Surprising Encounter with Qwen3\|Unplugged but Not Uninformed - Surprising Encounter with Qwen3]]
+#### 1. [[LLM's/Notes/Unplugged but Not Uninformed - Surprising Encounter with Qwen3\|Unplugged but Not Uninformed - Surprising Encounter with Qwen3]]
 How Does a 35B Parameter AI Know About Kongu Engineering College? read the blog to know more...
 
 
