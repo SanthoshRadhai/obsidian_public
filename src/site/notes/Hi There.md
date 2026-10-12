@@ -9,10 +9,9 @@ Thank you visiting this page.
 
 Check out blog in LLM
 1. Large Language Model [[LLM's/Notes/Large Language Models\|Link]]
-2. 
-3. VAPT at KEC *coming soon*
-4. Experience at CDAC Bug Bounty *coming soon*
-5. Death of the Internet *coming soon*
+2. VAPT at KEC *coming soon*
+3. Experience at CDAC Bug Bounty *coming soon*
+4. Death of the Internet *coming soon*
 
 More Blogs coming soon....
 
