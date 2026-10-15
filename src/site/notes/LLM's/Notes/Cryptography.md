@@ -47,8 +47,6 @@ In Asymmetric Signature Algorithms:
 1. Public Key : Used to decrypt the Hash (verification)
 2. Private Key : Used to encrypt the Hash (signing)
 
-<video src="SameSameButDifferent.mp4" autoplay loop muted playsinline></video>
-
 **Same... Same.... But Different.....** 
 
 
