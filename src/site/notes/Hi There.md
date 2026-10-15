@@ -5,13 +5,14 @@
 Welcome to Santhosh Radhai's Blog Site 
 Thank you visiting this page. 
 
-![telephone.png](/img/user/LLM's/__Support/telephone.png)
+
 
 Check out blog in LLM
-1. Large Language Model [[LLM's/Notes/Large Language Models\|Link]]
+1. [[LLM's/Notes/Large Language Models\|Large Language Models]] 
 2. VAPT at KEC *coming soon*
 3. Experience at CDAC Bug Bounty *coming soon*
 4. Death of the Internet *coming soon*
+5. [[LLM's/Notes/Cryptography\|Cryptography]]
 
 More Blogs coming soon....
 

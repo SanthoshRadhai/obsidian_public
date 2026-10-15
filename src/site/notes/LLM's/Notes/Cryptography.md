@@ -21,10 +21,10 @@ Cryptography can be categorized in to two major categories:
 ### Symmetric and Asymmetric Encryption
 
 
-![Pasted image 20261015201328.png](/img/user/Pasted%20image%2020261015201328.png)
+![Pasted image 20261015201328.png](/img/user/LLM's/__Support/Pasted%20image%2020261015201328.png)
 
 
-![Pasted image 20261015201402.png](/img/user/Pasted%20image%2020261015201402.png)
+![Pasted image 20261015201402.png](/img/user/LLM's/__Support/Pasted%20image%2020261015201402.png)
 
 Source : [Link](https://sectigostore.com/blog/types-of-encryption-what-to-know-about-symmetric-vs-asymmetric-encryption/)
 ## Digital Signature 
